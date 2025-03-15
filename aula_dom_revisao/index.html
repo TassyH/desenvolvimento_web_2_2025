@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Exercicios e manipular DOM</h1>
+
+    <!-- exercicio 1-->
+
+    <div class="box">
+        <h2>Alterando Cor e Texto</h2>
+        <p id="texto"> Clique no botão para miudar esses texto e acor</p>
+        <button onclick="alterarTextoCor()"> Alterar </button>
+    </div>
+
+    <!-- exercicio 2-->
+
+    <div class="box">
+    <h2> Criando e removendo alemento</h2>
+    <button onclick="adicionarElemento()"> Adicionar paragrafo</button>
+    <button onclick="removerElemento()"> Adicionar paragrafo</button>
+    <div id="container"> 
+
+    </div>
+    </div>
+
+    <!-- exercicio 3 -->
+    <div class = "box">
+        <h2> Lista interativa</h2>
+        <input type="text" id="itemInput" placeholder="Digite um item"/>
+        <button onclick="adicionarItem()" >Adicionar</button>
+        <ul id="lista"> 
+
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
